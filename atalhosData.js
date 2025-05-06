@@ -1,6 +1,4 @@
-// atalhosData.js
 const atalhos = [
-  // ⚙️ Geral
   {
     categoria: "Geral",
     acao: "Abrir paleta de comandos",
@@ -16,20 +14,10 @@ const atalhos = [
     acao: "Abrir configurações do VS Code",
     atalho: "Cmd + ,",
   },
-  {
-    categoria: "Geral",
-    acao: "Alternar painel lateral",
-    atalho: "Cmd + B",
-  },
-  {
-    categoria: "Geral",
-    acao: "Abrir terminal integrado",
-    atalho: "Ctrl + `",
-  },
+  { categoria: "Geral", acao: "Alternar painel lateral", atalho: "Cmd + B" },
+  { categoria: "Geral", acao: "Abrir terminal integrado", atalho: "Ctrl + `" },
   { categoria: "Geral", acao: "Novo arquivo", atalho: "Cmd + N" },
   { categoria: "Geral", acao: "Salvar arquivo", atalho: "Cmd + S" },
-
-  // 💬 Chat com IA
   { categoria: "Chat com IA", acao: "Abrir chat", atalho: "Cmd + L" },
   {
     categoria: "Chat com IA",
@@ -46,11 +34,7 @@ const atalhos = [
     acao: "Navegar entre abas do chat",
     atalho: "Cmd + [ / Cmd + ]",
   },
-  {
-    categoria: "Chat com IA",
-    acao: "Fechar aba de chat",
-    atalho: "Cmd + W",
-  },
+  { categoria: "Chat com IA", acao: "Fechar aba de chat", atalho: "Cmd + W" },
   {
     categoria: "Chat com IA",
     acao: "Aceitar sugestões",
@@ -61,8 +45,6 @@ const atalhos = [
     acao: "Rejeitar sugestões",
     atalho: "Cmd + Backspace",
   },
-
-  // ✍️ Edição com IA
   {
     categoria: "Edição com IA",
     acao: "Abrir modo de edição com IA",
@@ -78,16 +60,8 @@ const atalhos = [
     acao: "Cancelar edição",
     atalho: "Cmd + Backspace",
   },
-
-  // 🧠 Composer
   { categoria: "Composer", acao: "Abrir Composer", atalho: "Cmd + I" },
-
-  // 🧭 Navegação
-  {
-    categoria: "Navegação",
-    acao: "Ir para arquivo",
-    atalho: "Cmd + P",
-  },
+  { categoria: "Navegação", acao: "Ir para arquivo", atalho: "Cmd + P" },
   {
     categoria: "Navegação",
     acao: "Ir para linha específica",
@@ -108,8 +82,6 @@ const atalhos = [
     acao: "Selecionar em breadcrumbs",
     atalho: "Cmd + Shift + .",
   },
-
-  // 🧱 Organização do Código
   {
     categoria: "Organização do Código",
     acao: "Recolher tudo",
@@ -155,8 +127,6 @@ const atalhos = [
     acao: "Seleção múltipla (cursores)",
     atalho: "Option + Click",
   },
-
-  // 🔍 Busca e Substituição
   {
     categoria: "Busca e Substituição",
     acao: "Buscar no arquivo atual",
@@ -172,8 +142,6 @@ const atalhos = [
     acao: "Buscar em todos os arquivos",
     atalho: "Cmd + Shift + F",
   },
-
-  // 🔖 Bookmarks
   {
     categoria: "Bookmarks",
     acao: "Alternar marcador com rótulo",
@@ -189,8 +157,6 @@ const atalhos = [
     acao: "Limpar todos os bookmarks",
     atalho: "Ctrl + Alt + Cmd + D",
   },
-
-  // 🧭 Membros do Código
   {
     categoria: "Membros do Código",
     acao: "Ir para membro anterior",
@@ -201,72 +167,62 @@ const atalhos = [
     acao: "Ir para próximo membro",
     atalho: "Cmd + Shift + ↓",
   },
-
-  // 🧠 @Símbolos (Referências contextuais)
-  {
-    categoria: "@Símbolos",
-    acao: "Referenciar arquivo",
-    atalho: "@main.ts",
-  },
+  { categoria: "@Símbolos", acao: "Referenciar arquivo", atalho: "@main.ts" },
   {
     categoria: "@Símbolos",
     acao: "Referenciar função",
     atalho: "@getUserData",
   },
-  {
-    categoria: "@Símbolos",
-    acao: "Referenciar variável",
-    atalho: "@token",
-  },
+  { categoria: "@Símbolos", acao: "Referenciar variável", atalho: "@token" },
   {
     categoria: "@Símbolos",
     acao: "Buscar em toda a base de código",
     atalho: "@codebase",
   },
   { categoria: "@Símbolos", acao: "Buscar na web", atalho: "@web" },
-  {
-    categoria: "@Símbolos",
-    acao: "Acessar documentação",
-    atalho: "@docs",
-  },
-
-  // 🌲 NERDTree (navegação e gerenciamento)
-  {
-    categoria: "NERDTree",
-    acao: "Abrir/exibir árvore",
-    atalho: "Ctrl + N",
-  },
+  { categoria: "@Símbolos", acao: "Acessar documentação", atalho: "@docs" },
+  { categoria: "NERDTree", acao: "Abrir/exibir árvore", atalho: "Ctrl + N" },
   { categoria: "NERDTree", acao: "Mover para baixo", atalho: "↓ ou J" },
   { categoria: "NERDTree", acao: "Mover para cima", atalho: "↑ ou K" },
-  {
-    categoria: "NERDTree",
-    acao: "Mover para esquerda",
-    atalho: "← ou H",
-  },
-  {
-    categoria: "NERDTree",
-    acao: "Mover para direita",
-    atalho: "→ ou L",
-  },
+  { categoria: "NERDTree", acao: "Mover para esquerda", atalho: "← ou H" },
+  { categoria: "NERDTree", acao: "Mover para direita", atalho: "→ ou L" },
   { categoria: "NERDTree", acao: "Abrir arquivo", atalho: "Enter" },
   { categoria: "NERDTree", acao: "Abrir em nova aba", atalho: "T" },
-  {
-    categoria: "NERDTree",
-    acao: "Visualizar arquivo",
-    atalho: "Space",
-  },
-  {
-    categoria: "NERDTree",
-    acao: "Criar novo arquivo",
-    atalho: "M → A",
-  },
+  { categoria: "NERDTree", acao: "Visualizar arquivo", atalho: "Space" },
+  { categoria: "NERDTree", acao: "Criar novo arquivo", atalho: "M → A" },
   { categoria: "NERDTree", acao: "Criar nova pasta", atalho: "M → F" },
-  {
-    categoria: "NERDTree",
-    acao: "Mover para lixeira",
-    atalho: "M → D",
-  },
+  { categoria: "NERDTree", acao: "Mover para lixeira", atalho: "M → D" },
   { categoria: "NERDTree", acao: "Copiar arquivo", atalho: "M → C" },
   { categoria: "NERDTree", acao: "Colar arquivo", atalho: "M → V" },
   { categoria: "NERDTree", acao: "Renomear arquivo", atalho: "M → R" },
+  {
+    categoria: "Terminal Integrado",
+    acao: "Criar novo terminal",
+    atalho: "Ctrl + Shift + `",
+  },
+  {
+    categoria: "Terminal Integrado",
+    acao: "Navegar para terminal acima",
+    atalho: "Cmd + Shift + [",
+  },
+  {
+    categoria: "Terminal Integrado",
+    acao: "Navegar para terminal abaixo",
+    atalho: "Cmd + Shift + ]",
+  },
+  {
+    categoria: "Terminal Integrado",
+    acao: "Fechar o terminal em foco",
+    atalho: "Cmd + Shift + W",
+  },
+  {
+    categoria: "Jump Tag",
+    acao: "Ir para a próxima tag",
+    atalho: "Ctrl + Shift + Cmd + Down",
+  },
+  {
+    categoria: "Jump Tag",
+    acao: "Ir para a tag anterior",
+    atalho: "Ctrl + Shift + Cmd + Up",
+  },
 ];

@@ -98,6 +98,10 @@ input::placeholder {
   color: #999999 !important;
 }
 
+.dataTables_filter input[type="search"] {
+  color: #fff; /* Substitua "sua_cor_aqui" pela cor desejada (ex: red, blue, #ff0000) */
+}
+
 .pagination-wrapper {
   display: flex;
   justify-content: space-between;
